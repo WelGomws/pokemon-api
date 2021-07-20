@@ -18,7 +18,7 @@ const getPokemonByName = async (pokemonName) => {
     sprites: response.sprites,
   };
 
-  return pokemonData;
+  return pokemonData
 };
 
 module.exports = getPokemonByName;
